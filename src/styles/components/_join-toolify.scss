@@ -1,0 +1,147 @@
+.join-toolify {
+  margin-top: 104px;
+  overflow: hidden;
+  padding-bottom: 231px;
+  position: relative;
+
+  &--single-widget {
+    margin-top: 125px;
+    padding-bottom: 236px;
+  }
+
+  .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  &__gradient-bg {
+    background: var(--gradient-primary);
+    margin-top: 0;
+    padding: 126px 0 124px;
+  }
+
+  &__bottom-right-element {
+    background: var(--gradient-primary);
+    border-radius: 50%;
+    bottom: -50px;
+    height: 177px;
+    position: absolute;
+    right: -43px;
+    width: 177px;
+  }
+
+  &__left-bottom-ellispe {
+    background: var(--gradient-primary);
+    border-radius: 50%;
+    bottom: -150px;
+    height: 312px;
+    left: 153px;
+    position: absolute;
+    width: 312px;
+  }
+
+  &__center-ellispe {
+    bottom: 150px;
+    left: 595px;
+    position: absolute;
+  }
+
+  &__ellispe-topcircle {
+    background: var(--gradient-primary);
+    border-radius: 50%;
+    height: 285px;
+    left: 45px;
+    position: absolute;
+    top: -140px;
+    width: 285px;
+  }
+
+  &__ellispe-bottomcircle {
+    background: var(--gradient-primary);
+    border-radius: 50%;
+    bottom: 37px;
+    height: 177px;
+    position: absolute;
+    right: 174px;
+    width: 177px;
+  }
+
+}
+
+
+@media (max-width: 1720px) {
+  .join-toolify {
+    &__ellispe-topcircle {
+      top: -160px;
+    }
+  }
+}
+
+
+@media (max-width: 1153px) {
+  .join-toolify {
+    &__ellispe-bottomcircle {
+      right: 0;
+    }
+
+    &__ellispe-bottomcircle {
+      bottom: -40px;
+      height: 122px;
+      width: 122px;
+    }
+
+    &__ellispe-topcircle {
+      height: 247px;
+      width: 247px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .join-toolify {
+    margin-top: 190px;
+    padding-bottom: 236px;
+
+    &__gradient-bg {
+      margin-top: 21px;
+      padding: 194px 0 236px;
+    }
+
+    &__ellispe-bottomcircle {
+      bottom: 34px;
+      height: 145px;
+      right: 21px;
+      width: 145px;
+    }
+
+    &__ellispe-topcircle {
+      height: 285px;
+      left: -91px;
+      top: -143px;
+      width: 285px;
+    }
+
+    .section-descripton {
+      padding: 0 52px;
+    }
+
+    .btn-primary {
+      margin-top: 70px;
+    }
+
+    &--single-widget {
+      margin-top: 0;
+      padding-bottom: 265px;
+    }
+
+    &__left-bottom-ellispe {
+      bottom: -117px;
+      height: 216px;
+      left: 26px;
+      width: 216px;
+    }
+  }
+}

@@ -1,0 +1,147 @@
+.categories-section {
+  background: var(--color-white);
+  border-radius: 32px;
+  display: flex;
+  justify-content: space-between;
+  margin: -378px auto 37px;
+  max-width: 1640px;
+  padding: 90px 73px 83px 76px;
+  position: relative;
+
+  &__column {
+    width: 453px;
+  }
+
+  &__main-title {
+    font-size: 48px;
+    line-height: 50px;
+    margin-bottom: 47px;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__list--two {
+    margin-top: 76px;
+  }
+
+  &__item {
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 13px;
+    padding: 7px 12px;
+    width: 80%;
+  }
+
+  .no-mb {
+    color: rgb(60, 161, 161);
+    margin-bottom: 0;
+  }
+
+  &__item:hover {
+    background-color: #eeee;
+  }
+
+  &__item--active {
+    background-color: #eeee;
+  }
+
+  &__item a {
+    align-items: center;
+    color: var(--color-black);
+    display: flex;
+    font-size: 24px;
+    font-weight: normal;
+    justify-content: space-between;
+    line-height: 28px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1650px) {
+  .categories-section {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 1583px) {
+  .categories-section {
+    &__column {
+      width: 400px;
+    }
+  }
+}
+
+@media (max-width: 1460px) {
+  .categories-section {
+    &__column {
+      width: 350px;
+    }
+  }
+}
+
+@media (max-width: 1226px) {
+  .categories-section {
+    flex-wrap: wrap;
+
+    &__column {
+      width: 48%;
+    }
+
+    &__column--third {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .categories-section {
+    align-items: center;
+    flex-direction: column;
+
+    &__column {
+      width: 100%;
+    }
+
+    &__column--third {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    &__item {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .categories-section {
+    border-radius: 22px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-top: -362px;
+    max-width: 100%;
+    padding: 87px 20px 77px;
+
+    &__maintitle {
+      font-size: 38px;
+    }
+
+    &__item {
+      margin-bottom: 10px;
+    }
+
+    &__item a {
+      font-size: 18px;
+    }
+
+    &__main-title {
+      display: none;
+    }
+  }
+}
+

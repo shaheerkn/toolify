@@ -1,0 +1,147 @@
+.widget-detail {
+  background-color: #fff;
+  border-radius: 32px;
+  margin: 30px 0 184px;
+  max-width: 1364px;
+  overflow: hidden;
+  padding: 119px 70px 77px;
+  position: relative;
+  z-index: 1111111;
+
+  &--transparent {
+    backdrop-filter: blur(20px);
+    background: linear-gradient(108.05deg, rgba(226, 226, 226, 0.14) 5.14%, rgba(255, 255, 255, 0.085) 94.85%);
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px 0 #0000001a;
+  }
+
+  &__header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+
+  &__header h3 {
+    background: var(--gradient-primary);
+    /* stylelint-disable-next-line property-no-vendor-prefix */
+    -webkit-background-clip: text;
+    font-size: 64px;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__row {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 51px;
+    position: relative;
+  }
+
+  &_row--top-line {
+    padding-top: 57.5px;
+    position: relative;
+  }
+
+  &_row--top-line::before {
+    background: #e8e8e8;
+    content: '';
+    height: 1px;
+    left: -100px;
+    position: absolute;
+    top: 0;
+    width: 200%;
+  }
+
+  .inline-inputs {
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+
+  .input:focus {
+    outline: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .widget-detail {
+    padding: 20px;
+
+    .input-md,
+    .input-sm,
+    .input-group {
+      width: 100%;
+    }
+
+    .input-sm {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+
+    &__row {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 20px;
+      width: 100%;
+    }
+
+    .calculator-btn {
+      margin: 0;
+    }
+
+    &__header {
+      flex-direction: column;
+    }
+
+    .share-btn {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 1020px) {
+  .widget-detail {
+    background-color: #fff;
+    border-radius: 32px;
+    margin: 0;
+    padding: 73px 21px 33px;
+
+    &__header h3 {
+      font-size: 30px;
+    }
+
+    &__header {
+      flex-direction: row;
+      margin-bottom: 42px;
+    }
+
+    .btn-group {
+      justify-content: space-between;
+      margin-top: 17px;
+    }
+
+    &__row {
+      margin-bottom: 34px;
+    }
+
+    &__row.inline-inputs {
+      flex-direction: row;
+    }
+
+    &_row--top-line {
+      padding-top: 29px;
+    }
+  }
+}
+
+
+@media (max-width: 786px) {
+  .widget-detail {
+    margin: 146px 0 0;
+  }
+}

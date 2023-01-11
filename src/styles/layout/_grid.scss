@@ -1,0 +1,22 @@
+.container {
+  margin: 0 auto;
+  max-width: 1364px;
+}
+
+.d-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1500px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}

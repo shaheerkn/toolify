@@ -1,0 +1,139 @@
+.smart-section {
+  margin-top: 115px;
+  padding: 108px 0 145px;
+  position: relative;
+
+  &__element-top--left {
+    background: var(--gradient-primary);
+    border-radius: 50%;
+    height: 285px;
+    left: -195px;
+    position: absolute;
+    top: 0;
+    width: 285px;
+  }
+
+  &__top-ellispe {
+    left: 374px;
+    position: absolute;
+    top: 50px;
+  }
+
+  &__bottom-ellispe {
+    bottom: 0;
+    position: absolute;
+    right: 654px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 81px;
+  }
+
+  &__card {
+    max-width: 369px;
+    min-height: 184px;
+    padding: 0 10px;
+  }
+
+  &__card h5 {
+    color: var(--color-white);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    margin: 0 auto;
+    max-width: 284px;
+    text-align: center;
+  }
+
+  &__card p {
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    margin-top: 18px;
+    text-align: center;
+  }
+}
+
+.toolify-widgets-container {
+  position: relative;
+}
+
+.mini-orange-ellispe {
+  background: var(--gradient-primary);
+  bottom: 67px;
+  height: 29px;
+  position: absolute;
+  right: 166px;
+  width: 29px;
+}
+
+@media (max-width: 1000px) {
+  .smart-section {
+    &__element-top--left {
+      left: -200px;
+      top: -100px;
+    }
+
+    &__cards {
+      align-items: center;
+      flex-direction: column;
+    }
+
+    &__card {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .smart-section {
+    margin-top: 122px;
+    padding: 0;
+
+    &__element-top--left {
+      height: 202px;
+      left: -120px;
+      top: -200px;
+      width: 202px;
+    }
+
+    &__top-ellispe {
+      left: auto;
+      right: 23px;
+      top: 290px;
+    }
+
+    &__bottom-ellispe {
+      bottom: -120px;
+      left: 56px;
+    }
+
+    &__cards {
+      margin-top: 62px;
+    }
+
+    &__card {
+      margin-top: 58px;
+      max-width: 313px;
+      min-height: auto;
+    }
+
+    &__card h5 {
+      font-size: 24px;
+      line-height: 28.13px;
+    }
+
+    &__card p {
+      font-size: 18px;
+    }
+  }
+
+  .mini-orange-ellispe {
+    background: var(--gradient-blue);
+    bottom: 561px;
+    right: 67px;
+  }
+}

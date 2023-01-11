@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/static/favicon/favicon-32x32.png" />
+    <title>Widget Page</title>
+  </head>
+
+  <body class="bg-gradient--primary">
+    <header class="header no-gradient single-widget-header">
+      <div class="big-ellispe"></div>
+      <div class="secondary-ellispe"></div>
+      <nav class="navbar navbar__bg">
+        <a href="/index.html" class="navbar__brand">
+          <img src="/static/images/logo.png" alt="logo">
+        </a>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/widgets.html" class="navbar__link">Widgets</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Categories</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Help</a>
+          </li>
+        </ul>
+        <div class="navbar__button-group">
+          <a href="#" class="btn--nav btn--black btn--sm">Sign in</a>
+          <a href="#" class="btn--nav btn-gradient--primary btn--bold btn--sm btn">Sign up</a>
+        </div>
+        <button class="btn hamburger-btn"><img src="/static/images/hamburger-black.png" alt="icon"></button>
+      </nav>
+      <div class="banner no-height banner--single-widget-page">
+        <div class="container">
+          <h1 class="banner__title">Tip calculator</h1>
+          <p class="banner__text">Free tool for your daily use whenever you go for dining with friends.</p>
+          <a href="#use-it" class="btn btn--single-widget-page btn--md btn--bold btn--rounded">Use it free</a>
+        </div>
+      </div>
+      <div class="container widget-detail-container" id="use-it">
+        <section class="widget-detail">
+          <div class="toolify-widgets__controls">
+            <div class="toolify-widgets__circle"></div>
+            <div class="toolify-widgets__circle"></div>
+            <div class="toolify-widgets__circle"></div>
+          </div>
+          <div class="widget-detail__header">
+            <h3>Tip calculator</h3>
+            <a href="#" class="btn--share btn--desktop btn--md btn--bold btn-gradient--primary btn--rounded btn">Share</a>
+            <a href="#" class="btn--share btn--mobile btn--md btn--bold btn-gradient--primary btn--rounded btn ">
+              <img src="/static/images/share-icon.png" alt="dsds" srcset="">
+            </a>
+          </div>
+          <form>
+            <div class="widget-detail__row">
+              <div class="input-group">
+                <label class="label--black label">Bill</label>
+                <input type="text" placeholder="0.00" class="input input--md">
+              </div>
+            </div>
+            <div class="widget-detail__row">
+              <div class="input-group">
+                <label class="label--black label">Tip %</label>
+                <input type="number" placeholder="0.00" class="input input--md input--padding-right">
+                <div class="plus-minus d-center">
+                  <button type="button" class="btn btn--bold minus">-</button>
+                  <button type="button" class="btn btn--bold">+</button>
+                </div>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn--bold btn--md btn--rounded btn--calculator">5%</button>
+                <button type="button" class="btn btn--bold btn--md btn--rounded btn--calculator">10%</button>
+                <button type="button" class="btn btn--bold btn--md btn--rounded btn--calculator">15%</button>
+                <button type="button" class="btn btn--bold btn--md btn--rounded btn--calculator">20%</button>
+
+              </div>
+            </div>
+            <div class="widget-detail__row">
+              <div class="input-group">
+                <label class="label--black label">Number of people</label>
+                <input type="number" placeholder="1" class="input input--md input--padding-right">
+                <div class="plus-minus d-center">
+                  <button type="button" class="btn btn--bold minus">-</button>
+                  <button type="button" class="btn btn--bold">+</button>
+                </div>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn--bold btn--md btn--rounded btn--calculator">2</button>
+                <button type="button" class="btn btn--bold btn--md btn--rounded btn--calculator">4</button>
+                <button type="button" class="btn btn--bold btn--md btn--rounded btn--calculator">6</button>
+                <button type="button" class="btn btn--bold btn--md btn--rounded btn--calculator">8</button>
+              </div>
+            </div>
+            <button type="button" class="btn btn--bold btn--lg btn--white btn--full-width">Calculate</button>
+            <div class="widget-detail__row inline-inputs widget-detail_row--top-line">
+              <div class="input-group inline">
+                <label class="label label--black label--lg">Tip: $0.00</label>
+              </div>
+              <div class="input-group inline">
+                <label class="label label--black label--lg">Total: $0.00</label>
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="logo-icon">
+          <a href="#" class="navbar__brand">
+            <img src="/static/images/logo.png" alt="logo">
+          </a>
+          <button class="btn menu-close"><img src="/static/images/close-icon.png" alt="icon"></button>
+        </div>
+        <ul class="mobile-menu__list">
+          <li><a href="/widgets.html" class="btn--bold">Widgets</a></li>
+          <li><a href="#" class="btn--bold">Categories</a></li>
+          <li><a href="#" class="btn--bold">Help</a></li>
+        </ul>
+        <div class="mobile-menu__copyright-bar">
+          Copyrights 2021 - Toolify brand
+        </div>
+     </div>
+    </header>
+    <main>
+      <section class="join-toolify join-toolify--single-widget">
+        <div class="container">
+         <h2 class="section-heading">Join 1,078,753 customers already using Toolify</h2>
+         <p class="section-descripton">Get the taste of 50+ powerful apps by Toolify. Joining is free!</p>
+         <a href="#" class="btn--primary btn--bold btn--bg-yellow btn--black">Get start</a>
+        </div>
+        <div class="join-toolify__left-bottom-ellispe"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__column">
+          <h6 class="footer__heading">Widgets</h6>
+          <a href="#" class="footer__link">Our company</a>
+          <a href="#" class="footer__link">Our goal</a>
+          <a href="#" class="footer__link">Inspiration</a>
+          <a href="#" class="footer__link">Testimonials</a>
+          <a href="#" class="footer__link">Ratings</a>
+          <a href="#" class="footer__link">Awards</a>
+        </div>
+        <div class="footer__column">
+          <h6 class="footer__heading">Plans</h6>
+          <a href="#" class="footer__link">Yearly</a>
+          <a href="#" class="footer__link">Monthly</a>
+          <a href="#" class="footer__link">One time</a>
+          <a href="#" class="footer__link">One widget</a>
+        </div>
+        <div class="footer__column">
+          <h6 class="footer__heading">About us</h6>
+          <a href="#" class="footer__link">Our company</a>
+          <a href="#" class="footer__link">Our goal</a>
+          <a href="#" class="footer__link">Inspiration</a>
+          <a href="#" class="footer__link">Testimonials</a>
+          <a href="#" class="footer__link">Ratings</a>
+          <a href="#" class="footer__link">Awards</a>
+        </div>
+        <div class="footer__column">
+          <h6 class="footer__heading">Office</h6>
+          <a href="#" class="footer__link">4139 Rhode Island Avenue</a>
+          <a href="#" class="footer__link">Washington DC</a>
+          <a href="#" class="footer__link">202-399-2897</a>
+          <iframe class="footer__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13280.160064444475!2d72.95238375663754!3d33.68202800570039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbd912b38628f%3A0x7bf21893447d5fa3!2sNaeem%20And%20Sons%20Gas%20Center%20And%20UBL%20Omni%20Shop!5e0!3m2!1sen!2s!4v1645554783429!5m2!1sen!2s" style="border:0;"></iframe>
+        </div>
+      </div>
+      <div class="footer__copyright-bar">
+        <span>Copyrights 2021 - Toolify brand</span>
+      </div>
+    </footer>
+  </body>
+</html>

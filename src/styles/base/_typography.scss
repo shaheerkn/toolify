@@ -1,0 +1,42 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: bold;
+  src: url('./vendors/fonts/Gilroy-Bold.eot');
+  src: url('./vendors/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./vendors/fonts/Gilroy-Bold.woff2') format('woff2'),
+    url('./vendors/fonts/Gilroy-Bold.woff') format('woff'),
+    url('./vendors/fonts/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./vendors/fonts/Gilroy-Regular.eot');
+  src: url('./vendors/fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./vendors/fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('./vendors/fonts/Gilroy-Regular.woff') format('woff'),
+    url('./vendors/fonts/Gilroy-Regular.svg#Gilroy-Regular') format('svg');
+
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./vendors/fonts/Gilroy-Light.eot');
+  src: url('./vendors/fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+    url('./vendors/fonts/Gilroy-Light.woff2') format('woff2'),
+    url('./vendors/fonts/Gilroy-Light.woff') format('woff'),
+    url('./vendors/fonts/Gilroy-Light.svg#Gilroy-Light') format('svg');
+
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+}
+

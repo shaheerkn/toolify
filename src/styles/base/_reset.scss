@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-gradient--secondary {
+  background: var(--gradient-secondary);
+}
+
+.bg-gradient--primary {
+  background: var(--gradient-primary);
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
